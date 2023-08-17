@@ -1,0 +1,9 @@
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    justify-content : space-evenly;
+}

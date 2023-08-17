@@ -1,0 +1,16 @@
+.purple-star {
+  filter : invert(82%) sepia(103%) saturate(2659%) hue-rotate(284deg) brightness(121%) contrast(126%)  
+}
+
+.orange-star {
+  filter : invert(81%) sepia(110%) saturate(2704%) hue-rotate(35deg) brightness(168%) contrast(105%)
+}
+
+#rate-container{
+  border-top: 2px solid purple;
+  padding-top: 10px;
+
+  img{
+    cursor: pointer;
+  }
+}

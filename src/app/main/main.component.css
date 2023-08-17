@@ -1,0 +1,12 @@
+.layout{
+    display: flex;
+    justify-content: space-evenly;
+    
+    div{
+        width: 50%;
+    }
+}
+
+.w-50{
+    width: 50%;
+}

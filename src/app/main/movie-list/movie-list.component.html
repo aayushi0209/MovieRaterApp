@@ -1,0 +1,14 @@
+<h4>Movie list</h4>
+
+<div class="row" *ngFor="let movie of movie_list;let i =index">
+    <div class="col-md-10 cursor-pointer" (click)="movieClicked(movie)">{{movie.title}}</div>
+
+    <div class="col-md-2 actions" >  
+        
+    <div><img src="../../../assets/img/edit.svg" (click)="movieEdited(movie)"></div>
+    <div><img src="../../../assets/img/trash.svg"></div>
+
+
+    </div>
+</div>
+<button>new movie</button>
