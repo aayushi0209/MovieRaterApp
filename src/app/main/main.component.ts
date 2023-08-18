@@ -33,7 +33,13 @@ export class MainComponent implements OnInit {
     this.selectMovie = null ;
   }
 
+  deletedMovie(movie: any) {
+    console.log(movie);
+  }
+
   createNewMovie(){
+    this.editMovie = {title:'', description:''}
+    this.selectMovie = null;
     console.log('new movie')
   }
 
