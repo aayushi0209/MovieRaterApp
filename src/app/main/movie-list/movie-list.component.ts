@@ -10,7 +10,8 @@ export class MovieListComponent implements OnInit {
 	@Input() movie_list: any;
 	@Output() selectedMovie = new EventEmitter();
 	@Output() editedMovie	= new EventEmitter();
-
+	@Output() createNewMovie =new EventEmitter();
+	
 	constructor() { }
 
 	ngOnInit() {
@@ -24,4 +25,7 @@ export class MovieListComponent implements OnInit {
 		this.editedMovie.emit(movie);
 	}
 
+	newMovie(){
+		this.createNewMovie.emit();
+	}
 }

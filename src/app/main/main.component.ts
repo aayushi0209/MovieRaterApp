@@ -25,10 +25,16 @@ export class MainComponent implements OnInit {
 
   selectedMovie(movie: any) {
     this.selectMovie = movie;
+    this.editMovie = null ;
   }
 
   editedMovie(movie: any) {
     this.editMovie = movie;
+    this.selectMovie = null ;
+  }
+
+  createNewMovie(){
+    console.log('new movie')
   }
 
 }
